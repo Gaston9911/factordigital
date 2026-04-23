@@ -327,7 +327,8 @@ export default function LeadMagnet() {
                   </p>
                   <button style={{ background: "#00FF94", color: "#040D1A", border: "none", borderRadius: "8px", padding: "1rem 1.5rem", fontSize: "0.82rem", fontWeight: 700, fontFamily: "'Space Mono',monospace", cursor: "pointer", letterSpacing: "0.04em", width: "100%", boxShadow: "0 0 28px rgba(0,255,148,0.28)", marginBottom: "0.6rem", transition: "transform 0.15s" }}
                     onMouseEnter={e => e.currentTarget.style.transform = "translateY(-1px)"}
-                    onMouseLeave={e => e.currentTarget.style.transform = "translateY(0)"}>
+                    onMouseLeave={e => e.currentTarget.style.transform = "translateY(0)"}
+                    onClick={() => window.open('https://wa.me/549XXXXXXXXX', '_blank')}>
                     DEJAR DE PERDER ${costo.toLocaleString()} AL MES →
                   </button>
                   <button style={{ background: "transparent", border: "1px solid rgba(255,255,255,0.09)", borderRadius: "8px", padding: "0.75rem 1.5rem", fontSize: "0.75rem", fontFamily: "'Space Mono',monospace", cursor: "pointer", letterSpacing: "0.04em", width: "100%", color: "#5A6A7A" }}>
